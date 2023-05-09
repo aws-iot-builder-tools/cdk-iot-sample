@@ -8,7 +8,7 @@ import fs from 'fs';
 const SUB_TOPIC = "devices/MyIoTThing/sub";
 const PUB_TOPIC = "devices/MyIoTThing/pub";
 const THING_NAME = "MyIoTThing";
-const ENDPOINT = "a1xbe6y87cnog-ats.iot.eu-central-1.amazonaws.com";
+const ENDPOINT = "<YOUR IOT ENDPOINT>";
 const PORT = 8883;
 const CLIENT_ID = "MyIoTThing";
 const CERT_FILE = "./MyIoTThing.cert.pem";
