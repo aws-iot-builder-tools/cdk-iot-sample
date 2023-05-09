@@ -1,0 +1,10 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "dependencies": {
+    "@aws-sdk/client-iot": "^3.327.0",
+    "fs": "^0.0.1-security",
+    "mqtt": "^4.3.7"
+  },
+  "type": "module"
+}

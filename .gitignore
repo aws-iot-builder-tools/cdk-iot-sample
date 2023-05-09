@@ -1,0 +1,9 @@
+/.idea/
+# Ignore Mac DS_Store files
+**/.DS_Store
+/test-app/node_modules/
+/node_modules/
+/cdk-iot-sample.iml
+/cdk.out/
+/test-app/MyIoTThing.cert.pem
+/test-app/MyIoTThing.private.key
