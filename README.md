@@ -1,6 +1,6 @@
 # CDK IoT Sample Project
 
-This is a sample project which shows how to create, deploy and start a simple Node.js IoT application. 
+This is a sample project which shows how to create, deploy and start a simple Node.js IoT application, using CDK and MQTT.js. 
 The code in this sample project was written by using the AI companionship of Amazon CodeWhisperer. 
 The comments in the code show what Amazon CodeWhisperer was 'told' to generate. 
 
