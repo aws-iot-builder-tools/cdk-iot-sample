@@ -23,8 +23,14 @@ export class CdkIoTStack extends cdk.Stack {
                             "iot:Connect"
                         ],
                         "Resource": [
-                            `arn:aws:iot:${cdk.Aws.REGION}:${cdk.Aws.ACCOUNT_ID}:client/\${iot:ClientId}`
+                            `arn:aws:iot:${cdk.Aws.REGION}:${cdk.Aws.ACCOUNT_ID}:client/\${iot:Connection.Thing.ThingName}`
                         ]
+                        ,
+                        "Condition": {
+                            "Bool": {
+                                "iot:Connection.Thing.IsAttached": "true"
+                            }
+                        }
                     },
                     {
                         "Effect": "Allow",
