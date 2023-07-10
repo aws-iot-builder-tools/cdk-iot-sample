@@ -7,3 +7,5 @@
 /cdk.out/
 /test-app/MyIoTThing.cert.pem
 /test-app/MyIoTThing.private.key
+/bin/cdk_io_t.js
+/lib/cdk_io_t-stack.js
