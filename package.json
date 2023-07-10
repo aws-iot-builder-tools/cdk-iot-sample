@@ -4,6 +4,9 @@
   "bin": {
     "cdk_io_t": "bin/cdk_io_t.js"
   },
+  "overrides": {
+    "semver": "^7.5.3"
+  },
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
