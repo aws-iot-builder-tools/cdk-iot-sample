@@ -5,12 +5,13 @@
     "cdk_io_t": "bin/cdk_io_t.js"
   },
   "overrides": {
-    "semver": "^7.5.3"
+    "semver": "^7.5.3",
+	  "cross-spawn":"^7.0.5"
   },
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "jest",
+    "test": "jest"a,
     "cdk": "cdk"
   },
   "devDependencies": {
